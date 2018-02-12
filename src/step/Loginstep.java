@@ -19,7 +19,7 @@ public class Loginstep {
 	@Given("^User is on the Facebook page$")
 	public void user_is_on_the_Facebook_page() {
 
-		System.out.println("User is on the Facebook page");
+		System.out.println("USER IS ON THE FACEBOOK PAGE");
 
 //		 System.setProperty("webdriver.ie.driver",
 //		 "C:\\Users\\RAJESH\\Desktop\\workspace\\Cucumber\\driver1\\IEDriverServer.exe");
@@ -30,7 +30,7 @@ public class Loginstep {
 	@When("^User enters the username and password$")
 	public void user_enters_the_username_and_password() {
 
-		System.out.println("User enters the username and password");
+		System.out.println("USER ENTERS THE USERNAME AND PASSWORD");
 
 //		 driver.findElement(By.id("email")).sendKeys("rajesh.business7@gmail.com");
 //		 driver.findElement(By.id("pass")).sendKeys("cucumber@123");
@@ -39,7 +39,7 @@ public class Loginstep {
 	@Then("^User clicks the login button$")
 	public void user_clicks_the_login_button() {
 
-		System.out.println("User clicks the login button");
+		System.out.println("USER CLICKS THE LOGIN BUTTON");
 
 //		 driver.findElement(By.xpath("//input[@value='Log In']")).click();
 
